@@ -89,7 +89,7 @@ public class Program
 
         if (secondItem == true)
         {            
-            Console.WriteLine("Order #2 has #127700026 item - price is {0}$.", order[127700026].UnitPrice); // or we can use order[127700026].UnitPrice / order[127700026].Quantity if we want to know about price for one.
+            Console.WriteLine("Order #2 has #127700026 item - price is {0}$.", order[127700026].UnitPrice * order[127700026].Quantity);
         }
     }
 
